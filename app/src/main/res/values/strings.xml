@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ListViewRefreshToLoadMore</string>
+    <string name="string_loadfull">已经全部加载完毕</string>
+    <string name="string_loadmore">加载更多</string>
+    <string name="string_loading">正在加载更多数据</string>
+    <string name="string_title">陈柳柳</string>
+    <string name="string_data">陈柳柳</string>
+    <string name="string_url">http://www.guimobile.net/blog/uploads/2014/01/114701RGE.png</string>
+</resources>

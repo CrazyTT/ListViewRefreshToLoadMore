@@ -3,6 +3,11 @@
 
 下拉刷新，上拉加载更多
 
+
+# 我的android开发技术交流群64288703
+# 崇尚开源，崇尚分享，欢迎各路大牛前来
+
+
 ![](https://github.com/CrazyTT/ListViewRefreshToLoadMore/blob/master/app/pic/23.gif?raw=true)
 
 

@@ -40,7 +40,7 @@ public class MessageAdapter extends ArrayListAdapter<RowsEntity> {
     private void bindViews(ViewHolder holder, final int position) {
         holder.mTxtTitle.setText(mList.get(position).getTitle());
         holder.mTxtBody.setText(android.text.Html.fromHtml(mList.get(position).getContent()));
-        Glide.with(mContext).load("http://g.hiphotos.baidu.com/image/pic/item/4b90f603738da977772000d7b651f8198618e33b.jpg").override(500, 500).placeholder(R.mipmap.ic_launcher).error(R.drawable.back_no_data_message).into(holder.mImageView);
+        Glide.with(mContext).load(mList.get(position).getCreateTime()).override(500, 500).placeholder(R.mipmap.ic_launcher).error(R.drawable.back_no_data_message).into(holder.mImageView);
     }
 
     class ViewHolder {

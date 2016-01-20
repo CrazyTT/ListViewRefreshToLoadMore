@@ -73,7 +73,7 @@ public class MessageActivity extends BaseActivity implements ListViewLoadMore.Is
                     messageAdapter.setList(list);
                 }
                 if (pageNum < 4) {
-                    for (int i = 0; i < 3; i++) {
+                    for (int i = 0; i < 2; i++) {
                         RowsEntity rowsEntity = new RowsEntity(getString(R.string.string_title), getString(R.string.string_url), getString(R.string.string_data));
                         list.add(rowsEntity);
                     }
